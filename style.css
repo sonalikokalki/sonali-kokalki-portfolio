@@ -37,10 +37,16 @@ hr {
 .link-secondry {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+  margin-left: 0.5rem;
 }
-.social-icon img{
+
+.social-icon i{
   width: 2rem;
-  background-color: red;
+  /* height: 2rem; */
+  /* background-color: red; */
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius:0.15rem;
 }
 /* lists */
 .list-non-bullet {
@@ -115,6 +121,7 @@ background-color: var(--off-white);
   text-align: center;
   font-weight: bold;
   font-size:1.5rem;
+  padding-bottom: 1rem;
 }
 .footer .link{
   color: white;
